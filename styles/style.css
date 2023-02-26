@@ -1,0 +1,63 @@
+body{
+    font-family: 'Manrope';
+    width: 100%;
+    background: #f5f5f5
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 125px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    padding-bottom: 30px;
+    letter-spacing: -0.03em;
+    width: 965px;
+}
+.chair{
+    padding-top: 379px;
+    padding-left: 40px;
+    margin-bottom: 150px;
+    height: 500px;
+    width: 1150px;
+    background-image: url('/resources/chair.png');
+    background-repeat: no-repeat;
+}   
+.chair-text{
+    font-weight: 400;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 20px;
+    letter-spacing: -0.03;
+    color: #FFFFFF;
+    width: 430px;
+    letter-spacing: -0.03em;
+}
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.about-us{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding-bottom: 30px;
+}
+a{
+    background: #AD1818;
+    padding: 20px 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
