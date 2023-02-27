@@ -24,7 +24,7 @@ h1{
     margin-bottom: 150px;
     height: 500px;
     width: 1150px;
-    background-image: url('../resources/chair.png');
+    background-image: url('./resources/chair.png');
     background-repeat: no-repeat;
 }   
 .chair-text{
