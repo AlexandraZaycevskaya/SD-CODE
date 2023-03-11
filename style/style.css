@@ -171,7 +171,7 @@ color: #000000;
     margin-bottom: 150px;
     background-image: url("../resources/bed.png");
     height: 717px;
-    max-width: 1400px;
+    width: 100%;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
