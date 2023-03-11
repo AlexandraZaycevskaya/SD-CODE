@@ -169,7 +169,7 @@ color: #000000;
 }
 .bedroom{
     margin-bottom: 150px;
-    background-image: url("resources/bed.png");
+    background-image: url(../resources/bed.png);
     height: 717px;
     max-width: 1400px;
     position: relative;
