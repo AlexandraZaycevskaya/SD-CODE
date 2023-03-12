@@ -217,6 +217,7 @@ color: #000000;
     line-height: 60px;
     letter-spacing: -0.02em;
     color: #121212;
+    width: 470px;
 }
 .mail{
     margin-bottom: 150px;
@@ -251,7 +252,6 @@ color: #000000;
 }
 .footer-link:hover{
     opacity: 0.5;
-    border-bottom: 1px solid #121212;
 }
 .end{
     padding-bottom: 30px;
