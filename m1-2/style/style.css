@@ -5,7 +5,6 @@ body{
     scroll-behavior: smooth;
 }
 .first-section{
-    max-width: 1400px;
     height: 765px;
     background-image: url("../resources/first-image.png");
     background-repeat:repeat;
