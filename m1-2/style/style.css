@@ -6,9 +6,7 @@ body{
 }
 .first-section{
     height: 765px;
-    background-image: url("../resources/first-image.png");
-    background-repeat:repeat;
-    background-position: cover;
+    background: url("../resources/first-image.png") 0 0/100% auto no-repeat;
 }
 .container{
     max-width: 1150px;
