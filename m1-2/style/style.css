@@ -327,7 +327,8 @@ body{
     width: 100%;
     height: auto;
     background: #FFFFFF;
-    border-radius: 30px;
+    border-top-left: 30px;
+    border-top-right: 30px;
 }
 .portfolio-end{
     margin-bottom: 66px;
