@@ -97,7 +97,9 @@ body{
     width: 1150px;
     height: 550px;
 }
-
+.poject-image{
+    position: relative;
+}
 .project-name{
     position: absolute;
     display: block;
