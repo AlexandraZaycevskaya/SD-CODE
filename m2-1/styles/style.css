@@ -1,0 +1,153 @@
+body{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+.description{
+    margin-bottom: 150px;
+}
+.description-title{
+    width: 956px;
+    margin-bottom: 30px;
+}
+.main-title{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+.description-image{
+    position: relative;
+}
+.description-text{
+    position: absolute;
+    top: 379px;
+    left: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.about-us-title{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.about-us-wrapper{
+    margin-bottom: 30px;
+}
+.about-us-text{
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+.about-us-text-wrapper{
+    margin-bottom: 30px;
+}
+.about-us-button{
+    display: inline-block;
+    width: 255px;
+    height: 67px;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    background: #AD1818;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.about-us{
+    margin-bottom: 150px;
+}
+.projects-title{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.projects-title-wrapper{
+    margin-bottom: 30px;
+}
+.projects-item{
+    margin-bottom: 90px;
+}
+.project-image{
+    margin-bottom: 15px;
+}
+.project-name{
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+.project-more{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+}
+.see-all-projects-btn{
+    display: inline-block;
+    margin-bottom: 150px;
+    padding-top: 56px;
+    width: 100%;
+    height: 153px;
+    border-radius: 5px;
+    border: 1px solid #AD1818;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #ad1818;
+}
+.see-all-projects-btn:hover{
+    background: #AD1818;
+    color: #fff;
+}
+@media (max-width: 1199px) {
+    .container{
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    img{
+        width: 100%;
+    }
+    .description-text{
+        font-size: 20px;
+line-height: 27px;
+letter-spacing: -0.03em;
+    }
+    .about-us-text{
+        font-size: 35px;
+        line-height: 48px;
+        letter-spacing: -0.03em;
+    }
+}
