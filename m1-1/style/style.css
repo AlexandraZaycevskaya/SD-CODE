@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     width: 100%;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 400;
     scroll-behavior: smooth;
@@ -147,10 +147,16 @@ margin-right: 60px;
     background: #AD1818;
     color: #fff;
 }
-/* .services{
+.services-wrapper{
+    column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .services{
     background: #121212;
     width: 100%;
-    height: 1844px;
+    height: auto;
+    padding-bottom: 150px;
 }
 .services-title{
     font-size: 18px;
@@ -162,18 +168,86 @@ margin-right: 60px;
     padding-top: 150px;
 }
 .service-item{
-    padding-bottom: 60px;
+    width: 570px;
+    position: relative;
 }
 .service-image{
-    margin-bottom: 13px;
+    height: 389px;
 }
 .service-name{
+    width: 300px;
+    height: 140px;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+    padding-top: 24px;
+    letter-spacing: -0.03em;
+} 
+.price{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    background: #AD1818;
+    border-radius: 5px;
 }
-.bedroom-container{
+.service-button{
+    display: block;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 153px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #AD1818;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+}
+.review{
+    padding-top: 150px;
+}
+.review-title{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+.review-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.review-item{
+    width: 550px;
+}
+.review-name{
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.review-text{
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+.review-big{
+    width: 862px;
+}
+/* .bedroom-container{
     margin-bottom: 150px;
     position: relative;
     height: 717px;
@@ -271,7 +345,7 @@ line-height: 27px;
 letter-spacing: -0.03em;
 opacity: 0.5;
 color: #fff;
-} */
+} */ 
 
 @media (max-width: 1199px) {
     .container{
@@ -342,6 +416,56 @@ color: #fff;
         padding-top: 56px;
         text-align: center;
     }
+    .price{
+        top: 31px;
+        left: 32px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .services{
+        padding-bottom: 120px;
+    }
+    .services-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .service-item{
+        width: calc(50% - 5px);  
+    }
+    .service-image{
+        width: 100%;
+        height: 315px;
+    }
+    .service-name{
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .service-button{
+        padding: 40px;
+        height: 153px;
+        font-size: 30px;
+        line-height: 41px;  
+    }
+    .review{
+        padding-top: 117px;
+    }
+    .review-item{
+       width: calc(50% - 25px);
+    }
+    .review-title{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;  
+    }
+    .review-name{
+        font-size: 35px;
+        line-height: 48px;
+        margin-bottom: 25px;
+    }
+    .review-text{
+        font-size: 22px;
+        line-height: 30px
+    }
 }
 
 @media (max-width: 767px) {
@@ -357,6 +481,8 @@ color: #fff;
     }
     .chair-img{
         height: 304px;
+        background-image: url(../resources/chair-mobile.png);
+        object-fit: contain;
     }
     .chair-text{
         width: 312px;
@@ -395,7 +521,6 @@ color: #fff;
     .project-image{
         width: 100%;
         height: 250px;
-        object-fit: cover;
     }
     .project-name{
         font-size: 18px;
@@ -414,5 +539,59 @@ color: #fff;
         padding-top: 37px;
         font-size: 22px;
         line-height: 30px;
+    }
+    .price{
+        top: 23px;
+        left: 24px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .services{
+        padding-bottom: 80px;
+    }
+    .services-title{
+        padding-top: 80px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .service-item{
+        width: 100%;  
+    }
+    .service-image{
+        height: 315px;
+    }
+    .service-name{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .service-button{
+        height: 100px;
+        padding: 37px;
+        font-size: 22px;
+        line-height: 30px; 
+    }
+    .review{
+        padding-top: 80px;
+    }
+    .review-item{
+       width: 100%;
+       margin-bottom: 40px;
+    }
+    .review-title{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 22px; 
+    }
+    .review-name{
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .review-text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .review-big{
+        width: 100%;
     }
 }
