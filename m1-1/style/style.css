@@ -38,6 +38,7 @@ margin-right: 60px;
     border-bottom: 1px solid #121212;
 } */
 .title{
+    padding-top: 130px;
     width: 956px;
     margin-bottom: 30px;
     font-size: 60px;
@@ -115,13 +116,13 @@ margin-right: 60px;
     height: 450px;
 }
 .project-name{
-    margin-top: 15px;
+    margin-top: 12px;
     font-size: 30px;
     line-height: 41px;
     letter-spacing: -0.03em;
 }
 .projects-link-more{
-    margin-top: 15px;
+    margin-top: 13px;
     display: inline-block;
     font-size: 20px;
     line-height: 27px;
@@ -169,6 +170,7 @@ margin-right: 60px;
 }
 .service-item{
     width: 570px;
+    height: 450px;
     position: relative;
 }
 .service-image{
@@ -181,7 +183,7 @@ margin-right: 60px;
     line-height: 41px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    padding-top: 24px;
+    padding-top: 16px;
     letter-spacing: -0.03em;
 } 
 .price{
@@ -189,9 +191,9 @@ margin-right: 60px;
     top: 31px;
     left: 30px;
     padding-top: 5px;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-bottom: 5px;
-    padding-right: 20px;
+    padding-right: 30px;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: -0.03em;
@@ -227,7 +229,8 @@ margin-right: 60px;
 .review-wrapper{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    row-gap: 55px;
+    column-gap: 30px;
 }
 .review-item{
     width: 550px;
@@ -235,7 +238,7 @@ margin-right: 60px;
 .review-name{
     font-size: 45px;
     line-height: 61px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
     color: #000000;
 }
 .review-text{
@@ -245,7 +248,7 @@ margin-right: 60px;
     color: #000000;
 }
 .review-big{
-    width: 862px;
+    width: 755px;
 }
 /* .bedroom-container{
     margin-bottom: 150px;
@@ -365,7 +368,8 @@ color: #fff;
         width: 430px;
         font-size: 20px;
         line-height: 27px;
-        bottom: 30px;
+        bottom: 16px;
+        left: 20px;
     }
     .about-us-title{
         font-size: 18px;
@@ -375,7 +379,7 @@ color: #fff;
         margin-bottom: 120px;
     }
     .about-us-text{
-        width: 100%;
+        width: 689px;
         font-size: 35px;
         line-height: 48px;
     }
@@ -399,7 +403,7 @@ color: #fff;
     }
     .project-name{
         font-size: 25px;
-        line-height: 34px; 
+        line-height: 31px; 
     }
     .project-more{
         font-size: 20px;
@@ -410,6 +414,7 @@ color: #fff;
     }
     .see-all-projects-btn{
         margin-bottom: 103px;
+        margin-top: 20px;
         height: 153px;
         font-size: 30px;
         line-height: 41px;
@@ -444,7 +449,7 @@ color: #fff;
         padding: 40px;
         height: 153px;
         font-size: 30px;
-        line-height: 41px;  
+        line-height: 71px;  
     }
     .review{
         padding-top: 117px;
@@ -463,8 +468,8 @@ color: #fff;
         margin-bottom: 25px;
     }
     .review-text{
-        font-size: 22px;
-        line-height: 30px
+        font-size: 20px;
+        line-height: 27px
     }
 }
 
