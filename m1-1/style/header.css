@@ -28,7 +28,7 @@
 
 .nav__link:hover{
     opacity: 0.5;
-    border-bottom: 1px solid #121212 transparent;
+    border-bottom: 1px solid #121212;
 } 
 
 @media (max-width: 1199px){
