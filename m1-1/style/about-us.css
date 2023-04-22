@@ -1,0 +1,78 @@
+.about-us-title{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-us-text{
+    width: 1048px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;  
+    color: #000000;
+}
+
+.about-us-button{
+    display: inline-block;
+    margin-bottom: 150px;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 255px;
+    height: 67px;
+    background: #AD1818;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+}
+
+@media (max-width: 1199px){
+    .about-us-text{
+        width: 689px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .about-us-button{
+        padding-left: 40px;
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .about-us{
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 767px){
+    .about-us-title{
+        margin-bottom: 20px;
+    }
+
+    .about-us-text{
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about-us-button{
+        width: 100%;
+        margin-bottom: 0;
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about-us{
+        margin-bottom: 64px;
+    }
+}
