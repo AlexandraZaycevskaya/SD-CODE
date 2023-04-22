@@ -1,0 +1,57 @@
+@import url(header.css);
+@import url(chair.css);
+@import url(about-us.css);
+@import url(projects.css);
+@import url(services.css);
+@import url(review.css);
+@import url(gallery.css);
+@import url(contacts.css);
+@import url(footer.css);
+@import url(popup.css);
+@import url(burger.css);
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1199px){
+    .container{
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: #121212
+    }
+}
