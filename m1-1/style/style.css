@@ -1,14 +1,14 @@
-@import url(header.css);
-@import url(chair.css);
-@import url(about-us.css);
-@import url(projects.css);
-@import url(services.css);
-@import url(review.css);
-@import url(gallery.css);
-@import url(contacts.css);
-@import url(footer.css);
-@import url(popup.css);
-@import url(burger.css);
+@import url(../header.css);
+@import url(../chair.css);
+@import url(../about-us.css);
+@import url(../projects.css);
+@import url(../services.css);
+@import url(../review.css);
+@import url(../gallery.css);
+@import url(../contacts.css);
+@import url(../footer.css);
+@import url(../popup.css);
+@import url(../burger.css);
 
 body{
     margin: 0 auto;
