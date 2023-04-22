@@ -4,6 +4,7 @@
 }
 
 .header-inner{
+    height: 30px;
     position: relative;
     display: flex;
     justify-content: space-between;
