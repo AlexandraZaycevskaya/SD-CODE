@@ -38,7 +38,7 @@
 
     .header{
         margin-top: 31px;
-        margin-bottom: 71px;
+        padding-bottom-bottom: 40px;
     }
 
     .logo-img{
@@ -46,9 +46,3 @@
     }
 }
 
-@media (max-width: 767px){
-
-    .header{
-        margin-bottom: 59px;
-    } 
-}
