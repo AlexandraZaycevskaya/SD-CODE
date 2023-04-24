@@ -27,6 +27,7 @@
 }
 
 .service-image{
+    object-fit: cover;
     height: 389px;
 }
 
