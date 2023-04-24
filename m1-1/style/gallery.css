@@ -144,7 +144,7 @@
   }
   .gallery__controls {
     bottom: 40%;
-    width: 95%;
+    width: calc(100% - 30px);
     justify-content: space-between;
     align-items: center;
     gap: 0;
