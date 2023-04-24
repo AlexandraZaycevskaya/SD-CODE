@@ -61,7 +61,7 @@
 .gallery__controls{
   position: absolute;
   left: auto;
-  bottom: 164px;
+  bottom: 190px;
   z-index: 100;
   max-width: 100%;
   display: flex;
@@ -114,7 +114,7 @@
 
   .gallery__controls {
     max-width: 100%;
-    bottom: 152px;
+    bottom: 180px;
     gap: 45px;
   }
   .gallery__control-prev,
@@ -143,7 +143,7 @@
     height: 68px;
   }
   .gallery__controls {
-    bottom: 150px;
+    bottom: 40%;
     width: 95%;
     justify-content: space-between;
     align-items: center;
