@@ -73,6 +73,7 @@
     font-weight: 400;
     font-size: 30px;
     cursor: pointer;
+    font-family: 'Manrope';
 }
 
 @media (max-width: 1199px){
