@@ -125,7 +125,8 @@
 
 @media (max-width: 767px){
     .burger__content{
-        width: 60%;
+        width: 40%;
+        height: 100%;
         padding: 30px;
         padding-top: 60px;
     }
