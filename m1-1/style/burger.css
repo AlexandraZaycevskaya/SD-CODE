@@ -92,7 +92,7 @@
 @media (max-width: 1199px){
     .burger-btn{
         position: absolute;
-        top: -25px;
+        top: -10px;
         right: 0;
         z-index: 1000;
         display: block;
