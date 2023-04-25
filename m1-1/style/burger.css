@@ -126,7 +126,7 @@
 
 @media (max-width: 767px){
     .burger__content{
-        width: 40%;
+        width: 50%;
         height: 100%;
         padding: 30px;
         padding-top: 60px;
@@ -136,8 +136,8 @@
 
 @media (max-width: 420px){
     .burger__content{
-        padding: 30px;
-        padding-top: 40px;
+        padding: 20px;
+        padding-top: 30px;
     }
     .burger-nav__link{
         font-size: 20px;
