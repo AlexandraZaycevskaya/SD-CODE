@@ -109,7 +109,8 @@
 
     .burger-btn_open{
         position: absolute;
-        right: 10px;
+        right: -5px;
+        top: -20px;
         width: 40px;
         height: 40px;
         z-index: 1010;
