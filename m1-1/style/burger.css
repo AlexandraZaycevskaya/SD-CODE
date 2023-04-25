@@ -37,8 +37,8 @@
     padding: 40px;
     padding-top: 80px;
     background-color: #fff;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+/*     border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
     transition: transform 0.3s linear;
     transform: translateX(100%);
 }
