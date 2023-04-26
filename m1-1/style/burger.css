@@ -149,6 +149,7 @@
     }
     .burger-logo{
         margin-top: 25px;
+        margin-bottom: 20px;
         width: 90%;
     }
     .burger-mail, .burger-tel{
