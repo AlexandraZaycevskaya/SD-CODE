@@ -33,7 +33,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 300px;
     padding: 40px;
     padding-top: 80px;
     background-color: #fff;
@@ -127,7 +127,7 @@
 
 @media (max-width: 767px){
     .burger__content{
-        width: 50%;
+        width: 260px;
         height: 100%;
         padding: 30px;
         padding-top: 60px;
@@ -137,6 +137,7 @@
 
 @media (max-width: 420px){
     .burger__content{
+        width: 200px;
         padding: 20px;
         padding-top: 30px;
     }
