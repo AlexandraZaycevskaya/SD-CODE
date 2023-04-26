@@ -20,7 +20,7 @@
     max-height: 100%;
     overflow-y: auto;
     background-color: white;
-    padding: 20px;
+    padding: 60px 15px;
     border-radius: 10px;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .popup-container{
-    padding: 100px;
+    padding: 60px;
 }
 
 .send-btn{
@@ -121,6 +121,7 @@
         line-height: 19px;
     }
     .input{
+        margin-bottom: 50x;
         font-size: 18px;
         line-height: 25px;
         padding-bottom: 5px;
