@@ -46,11 +46,11 @@
     background-repeat: no-repeat;
 }
 
-.number::before{
+.number-wrapper::before{
     background-image: url(../resources/phone-icon.png);
 }
 
-.mail::before{
+.mail-wrapper::before{
     background-image: url(../resources/tg.png);
 }
 
