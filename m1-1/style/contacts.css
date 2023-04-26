@@ -69,14 +69,14 @@
     .number{
         font-size: 45px; 
     }
-    .number::before{
+    .number-wrapper::before{
         top: -46px;
         left: -5px;
     }
     .mail{
         font-size: 45px; 
     }
-    .mail::before{
+    .mail-wrapper::before{
         top: -46px;
     }
 }
@@ -100,7 +100,7 @@
         line-height: 46px;
     }
 
-    .number::before{
+    .number-wrapper::before{
         width: 19px;
         height: 19px;
         top: -37px; 
@@ -111,7 +111,7 @@
         line-height: 46px;
     }
 
-    .mail::before{
+    .mail-wrapper::before{
         width: 19px;
         height: 19px;
         top: -37px; 
