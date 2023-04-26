@@ -140,7 +140,7 @@
 
 @media (max-width: 420px){
     .burger__content{
-        width: 200px;
+        width: 250px;
         padding: 20px;
         padding-top: 30px;
     }
@@ -148,6 +148,7 @@
         font-size: 20px;
     }
     .burger-logo{
+        margin-top: 25px;
         width: 90%;
     }
     .burger-mail, .burger-tel{
