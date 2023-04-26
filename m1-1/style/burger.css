@@ -55,7 +55,7 @@
     transform: translateX(0);
 }
 
-.burger-nav{
+.burger-nav-list{
     display: flex;
     flex-direction: column;
     gap: 20px;
