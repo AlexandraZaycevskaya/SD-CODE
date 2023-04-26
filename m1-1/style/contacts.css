@@ -13,18 +13,19 @@
 }
 
 .contacts-wrapper{
+    position: relative;
     display: flex;
     gap: 108px;
 }
 
 .number-wrapper,
 .mail-wrapper{
+    position: relative;
     width: 50%;
 }
 
 .number,.mail{
     display: block;
-    position: relative;
     text-decoration: none;
     font-size: 60px;
     line-height: 60px;
@@ -32,8 +33,8 @@
     color: #121212;
 }
 
-.number::before,
-.mail::before{
+.number-wrapper::before,
+.mail-wrapper::before{
     content: '';
     position: absolute;
     top: -35px;
