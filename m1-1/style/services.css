@@ -1,4 +1,4 @@
-.services-wrapper{
+.services-list{
     column-gap: 10px;
     row-gap: 50px;
     display: flex;
@@ -112,7 +112,7 @@
         line-height: 71px;  
     }
 
-    .services-wrapper{
+    .services-list{
         row-gap: 32px;
     }
 }
@@ -149,7 +149,7 @@
         font-size: 22px;
         line-height: 30px; 
     }
-    .services-wrapper{
+    .services-list{
         row-gap: 0;
     }
 }
