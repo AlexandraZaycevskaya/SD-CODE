@@ -11,9 +11,9 @@
     align-items: center;
 }
 
-.nav{
+.link-list{
     display: flex;
-    gap: 58px;
+    gap: 40px;
 }
 
 .nav__link{
@@ -41,8 +41,5 @@
         padding-bottom-bottom: 40px;
     }
 
-    .logo-img{
-        width: 97px;
-    }
 }
 
