@@ -23,6 +23,10 @@
     overflow: hidden;
 }
 
+.burger-logo{
+    margin-bottom: 40px;
+}
+
 .burger_open{
     opacity: 1;
     visibility: visible;
@@ -120,7 +124,6 @@
         background-size: 40px 40px;
     }
     .burger-logo{
-        margin: 20px 0;
         width: 160px;
     }
 }
