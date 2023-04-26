@@ -9,7 +9,7 @@
     text-transform: uppercase;
 }
 
-.review-wrapper{
+.review-list{
     display: flex;
     flex-wrap: wrap;
     row-gap: 80px;
@@ -98,7 +98,7 @@
     .review-big{
         width: 100%;
     }
-    .review-wrapper{
+    .review-list{
         row-gap: 36px;
     }
 }
