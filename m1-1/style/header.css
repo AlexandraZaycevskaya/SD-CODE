@@ -16,6 +16,10 @@
     gap: 61px;
 }
 
+.nav{
+    height: 20px;
+}
+
 .nav__link{
     display: block;
     font-size: 18px;
