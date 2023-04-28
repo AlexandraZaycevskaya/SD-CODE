@@ -1,0 +1,107 @@
+.competencies-subtitle{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.competencies-subtitle{
+    margin-bottom: 15px;
+}
+
+.competencies-title{
+    margin-bottom: 140px;
+}
+
+.competencies-text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.competencies-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 104px;
+}
+
+.competencies-item{
+    position: relative;
+    width: 50%;
+    height: 250px;
+}
+
+.competencies-subtitle::before{
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 2px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+}
+
+.competencies{
+    margin-bottom: 150px;
+}
+
+.competencies-first::before{
+    content: '';
+    position: absolute;
+    top: -54px;
+    left: 8px;
+    display: block;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-image: url(../resources/first-mini-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.competencies-second::before{
+    content: '';
+    position: absolute;
+    top: -54px;
+    left: 8px;
+    display: block;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-image: url(../resources/second-mini-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.competencies-third::before{
+    content: '';
+    position: absolute;
+    top: -54px;
+    left: 13px;
+    display: block;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-image: url(../resources/third-mini-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.competencies-fourth::before{
+    content: '';
+    position: absolute;
+    top: -54px;
+    left: 8px;
+    display: block;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    background-image: url(../resources/fourth-mini-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}

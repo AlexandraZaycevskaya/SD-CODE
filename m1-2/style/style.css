@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(description.css);
+@import url(projects.css);
+@import url(competencies.css);
+@import url(services.css);
+@import url(form.css);
+@import url(footer.css);
+@import url(burger.css);
+@import url(popup.css);
+
+body{
+    width: 100%;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    scroll-behavior: smooth;
+    background: #000;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+h2{
+    padding-top: 150px;
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.036em;
+    color: #FFFFFF;
+}

@@ -1,0 +1,74 @@
+.project-item{
+    position: relative;
+}
+
+.project-name{
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.project-name:hover{
+    color: #1BFF07;
+}
+
+.project-description{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.price{
+    position: absolute;
+    left: 47px;
+    top: 50px;
+    padding: 5px 10px;
+    background: #1BFF07;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    text-align: center;
+}
+
+.projects-list{
+    margin-bottom: 80px;
+}
+
+.all-projects-btn{
+    display: inline-block;
+    padding: 54px 120px;
+    background: #1BFF07;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.all-projects-btn:hover{
+    background: #000000;
+    color: #1BFF07;
+    outline: 1px solid #1BFF07;
+}
+
+.project-image{
+    width: 100%;
+}
