@@ -105,3 +105,54 @@
     background-size: contain;
     background-repeat: no-repeat; 
 }
+
+
+
+@media (max-width: 1149px) {
+    .competencies-subtitle{
+        font-size: 28px;
+        line-height: 36px; 
+    }
+
+    .competencies-text{
+        font-size: 18px;
+        line-height: 23px; 
+    }
+
+    .competencies-subtitle:before{
+        width: 35px;
+        height: 35px;
+    }
+
+    .competencies-first::before,
+    .competencies-second::before,
+    .competencies-third::before,
+    .competencies-fourth::before{
+        top: -52px;
+        left: 11px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .competencies-item{
+        width: calc(50% - 15px);
+    }
+
+    .competencies-list{
+        justify-content: space-between;
+    }
+
+    .competencies{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .competencies-list{
+        flex-direction: column;
+    }
+
+    .competencies-item{
+        width: 100%;
+    }
+}
