@@ -72,3 +72,42 @@
 .project-image{
     width: 100%;
 }
+
+
+@media (max-width: 1149px) {
+    .all-projects-btn{
+        padding: 45px 67px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .all-projects-btn{
+        width: 100%;
+        padding: 25px 50px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .price{
+        top: 20px;
+        left: 20px;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -0.03em; 
+        width: 147px;
+        height: 30px;
+    }
+    .project-name{
+        left: 20px;
+        bottom: 50px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .project-description{
+        left: 20px;
+        bottom: 20px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
