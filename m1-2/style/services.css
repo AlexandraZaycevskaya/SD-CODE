@@ -48,3 +48,34 @@
     letter-spacing: -0.03em;
     color: #FFFFFF;
 }
+
+
+
+@media (max-width: 1149px) {
+    .services-title{
+        width: 100%;
+    }
+    .image-description{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services{
+        margin-bottom: 100px;
+    }
+    .image-description{
+        flex-direction: column;
+        height: auto;
+    }
+    .services-subtitle{
+        width: 100%;
+        font-size: 35px;
+        line-height: 39px;  
+    }
+    .services-description{
+        width: 100%;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
