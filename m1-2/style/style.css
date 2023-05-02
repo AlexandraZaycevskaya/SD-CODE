@@ -30,3 +30,30 @@ h2{
     letter-spacing: -0.036em;
     color: #FFFFFF;
 }
+
+
+
+@media (max-width: 1149px) {
+    .container{
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    h2{
+        width: 100%;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media (max-width: 767px) {
+    h2{
+        width: 100%;
+        padding-top: 100px;
+        font-size: 30px;
+        line-height: 39px;  
+    }
+}
