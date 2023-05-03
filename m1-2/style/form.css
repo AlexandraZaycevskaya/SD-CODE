@@ -1,7 +1,6 @@
 .form{
     width: 100%;
     height: 717px;
-    /* margin-bottom: 20px; */
     background: #191C19;
     border-radius: 30px;
 }
@@ -16,20 +15,21 @@
     background-image: url(../resources/background-developer.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
 }
 
 .input{
     display: block;
     width: 50%;
-    padding: 15px 35px;
     margin-bottom: 25px;
     border: none;
     background: #3B3D3B;
     border-radius: 1000px;
     font-size: 22px;
-    line-height: 29px;
+    line-height: 62px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .form-button{
@@ -51,4 +51,37 @@
     background: #ffffff;
     color: #000000;
     outline: 2px solid #000000;
+}
+
+@media (max-width: 1149px) {
+    .form{
+        height: 600px;
+    }
+
+    .background-developer{
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .form{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .background-developer{
+        background-image: none;
+    }
+
+    .form-title{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .input{
+        width: 100%;
+    }
+    .form-button{
+        width: 100%;
+    }
 }
