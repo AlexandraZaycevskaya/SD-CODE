@@ -1,0 +1,131 @@
+.burger-btn{
+    display: none;
+}
+
+.burger{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color:  rgba(0, 0, 0, 0.4); 
+    display: flex; 
+    justify-content: end; 
+    align-items: center;   
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    overflow-y: auto;
+}
+
+.body_fixed{
+    overflow: hidden;
+}
+
+.burger-logo{
+    width: 118px;
+    border: 2px solid #1bff07;
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+.burger_open{
+    opacity: 1;
+    visibility: visible;
+    z-index: 400;
+}
+
+.burger__content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    padding: 40px;
+    padding-top: 80px;
+    background-color: #000;
+    transition: transform 0.3s linear;
+    transform: translateX(100%);
+}
+
+.burger_open{
+    transform: translateX(0);
+}
+
+.burger__content{
+    transform: translateX(0);
+}
+
+.burger-nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.burger-nav__link{
+    display: block;
+    padding: 5px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.for-communication{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comm{
+    display: block;
+    opacity: 0.5;
+}
+
+.burger-link{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+@media (max-width: 1149px){
+    .burger-btn{
+        position: absolute;
+        top: 15px;
+        right: 0;
+        z-index: 1000;
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: url(../resources/btn.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        outline: none;
+        border: none;
+    }  
+
+    .burger-btn_open{
+        position: absolute;
+        z-index: 1010;
+        background: url(../resources/close-icon.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 40px 40px;
+    }
+}
+
+@media (max-width: 767px){
+    .burger__content{
+        width: 260px;
+        padding: 30px;
+        padding-top: 60px;
+    }
+
+} 
