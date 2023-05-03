@@ -73,7 +73,6 @@
     width: 100%;
 }
 
-
 @media (max-width: 1149px) {
     .all-projects-btn{
         padding: 45px 67px;
@@ -95,7 +94,7 @@
         font-size: 13px;
         line-height: 18px;
         letter-spacing: -0.03em; 
-        width: 147px;
+        width: 169px;
         height: 30px;
     }
     .project-name{
@@ -109,5 +108,15 @@
         bottom: 20px;
         font-size: 16px;
         line-height: 21px;
+    }
+
+    .project-item{
+        height: 450px;
+    }
+    .project-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
     }
 }
