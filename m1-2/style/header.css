@@ -6,7 +6,6 @@
 
 .header-inner{
     padding-top: 32px;
-    margin-bottom: 280px;
     height: 55px;
     position: relative;
     display: flex;
@@ -34,7 +33,6 @@
 }
 
 .logo{
-    margin-top: 20px;
     display: block;
     width: 130px;
     height: 39px;
@@ -55,4 +53,17 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #1BFF07;
+}
+
+
+@media (max-width: 1149px){
+    .nav{
+        display: none;
+    }
+
+    .header{
+        margin-top: 31px;
+        padding-bottom: 40px;
+    }
+
 }
