@@ -1,14 +1,17 @@
 .first-section{
+    position: relative;
     width: 100%;
     height: 765px;
     background-image: url(../resources/developer.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% top;
+    background-position: center;
     background-color: black;
 } 
 
 .description{
+    position: absolute;
+    bottom: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -30,4 +33,33 @@
     line-height: 70px;
     letter-spacing: -0.038em;
     color: #1BFF07;
+}
+
+
+@media (max-width: 1149px) {
+    .greeting-text{
+        width: 727px;
+        font-size: 60px;
+        line-height: 70px; 
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .greeting-text{
+        width: 100%;
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .description-text{
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .first-section{
+        height: 717px;
+    }
 }
