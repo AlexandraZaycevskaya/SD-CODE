@@ -23,15 +23,15 @@
 }
 
 .competencies-list{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 104px;
+    row-gap: 115px;
 }
 
 .competencies-item{
     position: relative;
     width: 50%;
-    height: 250px;
 }
 
 .competencies-subtitle::before{
@@ -46,15 +46,12 @@
     background-color: #1BFF07;
 }
 
-.competencies{
-    margin-bottom: 150px;
-}
 
 .competencies-first::before{
     content: '';
     position: absolute;
     top: -54px;
-    left: 11px;
+    left: 8px;
     display: block;
     z-index: 10;
     width: 30px;
@@ -68,7 +65,7 @@
     content: '';
     position: absolute;
     top: -54px;
-    left: 9px;
+    left: 8px;
     display: block;
     z-index: 10;
     width: 30px;
@@ -82,7 +79,7 @@
     content: '';
     position: absolute;
     top: -54px;
-    left: 14px;
+    left: 13px;
     display: block;
     z-index: 10;
     width: 30px;
@@ -96,7 +93,7 @@
     content: '';
     position: absolute;
     top: -54px;
-    left: 11px;
+    left: 8px;
     display: block;
     z-index: 10;
     width: 30px;
@@ -105,8 +102,6 @@
     background-size: contain;
     background-repeat: no-repeat; 
 }
-
-
 
 @media (max-width: 1149px) {
     .competencies-subtitle{
