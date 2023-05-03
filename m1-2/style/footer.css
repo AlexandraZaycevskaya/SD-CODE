@@ -54,6 +54,11 @@
     color: #00eeff;
 }
 
+.rights-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media (max-width: 1149px) {
     .footer{
@@ -79,6 +84,9 @@
 
 @media (max-width: 767px) {
     .footer-wrapper{
+        flex-direction: column;
+    }
+    .rights-wrapper{
         flex-direction: column;
     }
     .footer-list{
