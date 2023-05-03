@@ -45,6 +45,7 @@
     letter-spacing: -0.03em;
     color: #000000;
     cursor: pointer;
+    border: #1bff07;
 }
 
 .form-button:hover{
