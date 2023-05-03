@@ -51,5 +51,45 @@
 }
 
 .footer-link:hover{
-    color: #1BFF07;
+    color: #00eeff;
+}
+
+
+@media (max-width: 1149px) {
+    .footer{
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .descr{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .rules{
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .footer-link{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .footer-wrapper{
+        flex-direction: column;
+    }
+    .footer-list{
+        margin-bottom: 35px;
+    }
+
+    .descr{
+        margin-bottom: 20px;
+    }
+
+    .rules{
+        display: inline-block;
+    }
 }
