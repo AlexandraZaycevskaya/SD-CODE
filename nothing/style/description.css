@@ -1,0 +1,14 @@
+.logo-name{
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 133px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #FF25C2;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
