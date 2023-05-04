@@ -12,3 +12,22 @@
     display: flex;
     justify-content: center;
 }
+
+.descr{
+    display: flex;
+    justify-content: center;
+}
+
+.description-text{
+    width: 430px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.description-image{
+    width: 100%;
+}
