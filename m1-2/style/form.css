@@ -29,6 +29,7 @@
     line-height: 62px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+    border: none;
 }
 
 .form-button{
@@ -44,7 +45,7 @@
     letter-spacing: -0.03em;
     color: #000000;
     cursor: pointer;
-    border: #1bff07;
+    border:none;
 }
 
 .form-button:hover{
