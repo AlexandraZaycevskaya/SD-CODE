@@ -4,7 +4,7 @@ const counterText = document.querySelector('.counter')
 const resetButton = document.getElementById('resetElement')
 const COUNTER_INITIAL_VALUE = 0;
 
-let counter = CONTER_INITIAL_VALUE;
+let counter = COUNTER_INITIAL_VALUE;
 
 addOneElement.addEventListener('click' , function() {
     counter = counter + parseInt(addOneElement.dataset.pools);
