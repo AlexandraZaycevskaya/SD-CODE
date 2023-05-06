@@ -19,3 +19,26 @@
     letter-spacing: -0.05em;
     color: white;
 }
+
+.item-button{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 420px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #FFFFFF;
+}
+
+.item-image-mini{
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    border-radius: 30px;
+}
