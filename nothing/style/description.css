@@ -31,3 +31,28 @@
 .description-image{
     width: 100%;
 }
+
+
+.nothing-phone{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.phone-description{
+    position: absolute;
+    width: 50%;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93.52%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.phone-image{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    border-radius: 30px;
+}
