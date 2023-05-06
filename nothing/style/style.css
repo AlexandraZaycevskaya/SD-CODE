@@ -1,9 +1,18 @@
+@import url(header.css);
+@import url(description.css);
+@import url(services.css);
+
+
+
+
 body{
     width: 100%;
     background: black;
+    font-family: 'Inter', sans-serif;
 }
 
 .container{
-    width: 1150px;
+    width: 1400px;
     margin: 0 auto;
+    text-align: center;
 }
