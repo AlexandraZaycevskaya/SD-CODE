@@ -1,0 +1,21 @@
+.item-image{
+    width: 100%;
+    border-radius: 37px;
+}
+
+.services-item{
+    width: 100%;
+    position: relative;
+}
+
+.item-name{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 375px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93.52%;
+    letter-spacing: -0.05em;
+    color: white;
+}
