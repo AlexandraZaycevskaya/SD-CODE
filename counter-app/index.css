@@ -1,0 +1,43 @@
+.blue-button{
+    width: 500px;
+    background: #4191FF;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.red-button{
+    width: 500px;
+    background: #D45366;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.counter{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+}
