@@ -18,6 +18,10 @@
     justify-content: center;
 }
 
+.description-image{
+    margin-bottom: 70px;
+}
+
 .description-text{
     width: 430px;
     font-weight: 400;
