@@ -1,5 +1,6 @@
 const addOneELement = document.getElementById('addOneElement')
 const addTwoElements = document.getElementById('addTwoElements')
+const addTenElements = document.getElementById('addTenElements')
 const counterText = document.querySelector('.counter')
 const resetButton = document.getElementById('resetElement')
 const COUNTER_INITIAL_VALUE = 0;
@@ -14,6 +15,12 @@ addOneElement.addEventListener('click' , function() {
 
 addTwoElements.addEventListener('click', function(){
     counter = counter + parseInt(addTwoElements.dataset.pools)
+
+    counterText.innerText = counter;
+});
+
+addTenElements.addEventListener('click', function(){
+    counter = counter + parseInt(addTenElements.dataset.pools)
 
     counterText.innerText = counter;
 });
