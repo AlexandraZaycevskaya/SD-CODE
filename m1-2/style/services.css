@@ -76,4 +76,7 @@
         font-size: 18px;
         line-height: 23px;
     }
+    .services-title{
+        padding-top: 0;
+    }
 }
