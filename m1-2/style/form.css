@@ -18,6 +18,12 @@
     background-size: contain;
 }
 
+.input-wrapper{
+    display: flex;
+    flex-direcrtion: column;
+    gap: 30px;
+    {
+
 .input{
     -webkit-appearance: none;
     display: block;
