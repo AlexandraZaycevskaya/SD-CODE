@@ -17,13 +17,6 @@
     background-position: right;
     background-size: contain;
 }
-
-.input-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    {
-
 .input{
     display: block;
     width: 50%;
