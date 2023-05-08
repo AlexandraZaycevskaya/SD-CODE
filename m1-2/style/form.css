@@ -22,7 +22,8 @@
     -webkit-appearance: none;
     display: block;
     width: 50%;
-    margin-bottom: 25px;
+    margin: 0;
+    padding: 0;
     border: none;
     background: #3B3D3B;
     border-radius: 1000px;
